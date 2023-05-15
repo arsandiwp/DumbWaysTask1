@@ -1,0 +1,70 @@
+*{
+   font-family: 'Rajdhani', sans-serif;
+   background-color: azure;
+}
+
+.card {
+   width: 500px;
+   margin: 50px auto;
+   padding: 10px 100px;
+   /* border: 1px solid black; */
+   border-radius: 10px;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+   border: 1px solid black;
+   border-radius: 20px;
+   width: 100px;
+   padding: 10px 30px;
+   color: white;
+   background-color: black;
+   cursor: pointer;
+}
+
+button:hover {
+   color: black;
+   background-color: white;
+   transition: 0.5;
+}
+
+.cv {
+   margin: 10px 0;
+}
+
+.cv a{
+   text-decoration: none;
+   color: black;
+}
+
+.icon {
+   text-align: center;
+}
+
+.icon a i {
+   color: white;
+   margin: 0 10px;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 50%;
+   background-color: black;
+}
+
+.icon a i:hover {
+   color: black;
+   background-color: white;
+   transition: 0.5;
+}
+
+.profil {
+   width: 250px;
+   margin: 20px auto;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+
+img {
+   width: 100%;
+}
